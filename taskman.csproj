@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="startmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="startmenu.Designer.cs">
+      <DependentUpon>startmenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="taskman.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +65,10 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="startmenu.resx">
+      <DependentUpon>startmenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="taskman.resx">
       <DependentUpon>taskman.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -66,6 +76,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -79,6 +90,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="main.ico" />
+    <None Include="Resources\vid.ico" />
+    <None Include="Resources\pics.ico" />
+    <None Include="Resources\music.ico" />
+    <None Include="Resources\docs.ico" />
+    <None Include="Resources\control.ico" />
+    <None Include="Resources\comp.ico" />
+    <None Include="Resources\down.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

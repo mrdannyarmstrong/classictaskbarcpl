@@ -410,6 +410,7 @@
             this.custstartbutt.TabIndex = 1;
             this.custstartbutt.Text = "Customize...";
             this.custstartbutt.UseVisualStyleBackColor = true;
+            this.custstartbutt.Click += new System.EventHandler(this.custstartbutt_Click);
             // 
             // custsytartxt
             // 

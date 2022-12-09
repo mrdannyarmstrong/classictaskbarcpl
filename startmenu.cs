@@ -8,10 +8,12 @@ using System.Windows.Forms;
 
 namespace taskman
 {
-    public partial class taskman : Form
+    public partial class startmenu : Form
     {
-        public taskman()
+        int comp = 2;
+        public startmenu()
         {
+            
             InitializeComponent();
         }
 
@@ -25,10 +27,17 @@ namespace taskman
             this.Close();
         }
 
-        private void custstartbutt_Click(object sender, EventArgs e)
+        private void compin2_CheckedChanged(object sender, EventArgs e)
         {
-            startmenu startm = new startmenu();
-            startm.ShowDialog();
+            comp = 2;
+        }
+        private void compin1_CheckedChanged(object sender, EventArgs e)
+        {
+            comp = 1;
+        }
+        private void compin0_CheckedChanged(object sender, EventArgs e)
+        {
+            comp = 0;
         }
     }
 }
