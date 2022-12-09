@@ -32,7 +32,7 @@
             this.applybutt = new System.Windows.Forms.Button();
             this.cancelbutt = new System.Windows.Forms.Button();
             this.okbutt = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.buttpane = new System.Windows.Forms.Panel();
             this.maintab = new System.Windows.Forms.TabControl();
             this.taskbartab = new System.Windows.Forms.TabPage();
             this.howtocust = new System.Windows.Forms.LinkLabel();
@@ -45,7 +45,7 @@
             this.customnotbutt = new System.Windows.Forms.Button();
             this.customnottxt = new System.Windows.Forms.Label();
             this.taskbarapperance = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.apperancepane = new System.Windows.Forms.Panel();
             this.taskbuttin = new System.Windows.Forms.ComboBox();
             this.taskbarbuttttxt = new System.Windows.Forms.Label();
             this.taskbarposin = new System.Windows.Forms.ComboBox();
@@ -54,28 +54,28 @@
             this.autohidetaskbarin = new System.Windows.Forms.CheckBox();
             this.locktaskbarin = new System.Windows.Forms.CheckBox();
             this.startmeutab = new System.Windows.Forms.TabPage();
+            this.howtochange = new System.Windows.Forms.LinkLabel();
             this.privacy = new System.Windows.Forms.Label();
             this.privacytab = new System.Windows.Forms.Panel();
+            this.storerecentitemsin = new System.Windows.Forms.CheckBox();
+            this.storerecentappsin = new System.Windows.Forms.CheckBox();
             this.poweractin = new System.Windows.Forms.ComboBox();
             this.poweracttxt = new System.Windows.Forms.Label();
             this.custstartbutt = new System.Windows.Forms.Button();
             this.custsytartxt = new System.Windows.Forms.Label();
             this.toolbartab = new System.Windows.Forms.TabPage();
-            this.storerecentappsin = new System.Windows.Forms.CheckBox();
-            this.storerecentitemsin = new System.Windows.Forms.CheckBox();
-            this.howtochange = new System.Windows.Forms.LinkLabel();
-            this.toolbartxt = new System.Windows.Forms.Label();
             this.toolbarpane = new System.Windows.Forms.Panel();
-            this.adressin = new System.Windows.Forms.CheckBox();
-            this.linksin = new System.Windows.Forms.CheckBox();
-            this.tabletin = new System.Windows.Forms.CheckBox();
             this.deskin = new System.Windows.Forms.CheckBox();
-            this.panel1.SuspendLayout();
+            this.tabletin = new System.Windows.Forms.CheckBox();
+            this.linksin = new System.Windows.Forms.CheckBox();
+            this.adressin = new System.Windows.Forms.CheckBox();
+            this.toolbartxt = new System.Windows.Forms.Label();
+            this.buttpane.SuspendLayout();
             this.maintab.SuspendLayout();
             this.taskbartab.SuspendLayout();
             this.peekpane.SuspendLayout();
             this.notpane.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.apperancepane.SuspendLayout();
             this.startmeutab.SuspendLayout();
             this.privacytab.SuspendLayout();
             this.toolbartab.SuspendLayout();
@@ -84,12 +84,13 @@
             // 
             // applybutt
             // 
-            this.applybutt.Location = new System.Drawing.Point(256, 8);
+            this.applybutt.Location = new System.Drawing.Point(94, 8);
             this.applybutt.Name = "applybutt";
             this.applybutt.Size = new System.Drawing.Size(75, 23);
             this.applybutt.TabIndex = 0;
             this.applybutt.Text = "Apply";
             this.applybutt.UseVisualStyleBackColor = true;
+            this.applybutt.Click += new System.EventHandler(this.applybutt_Click);
             // 
             // cancelbutt
             // 
@@ -103,7 +104,7 @@
             // 
             // okbutt
             // 
-            this.okbutt.Location = new System.Drawing.Point(94, 8);
+            this.okbutt.Location = new System.Drawing.Point(256, 8);
             this.okbutt.Name = "okbutt";
             this.okbutt.Size = new System.Drawing.Size(75, 23);
             this.okbutt.TabIndex = 2;
@@ -111,15 +112,15 @@
             this.okbutt.UseVisualStyleBackColor = true;
             this.okbutt.Click += new System.EventHandler(this.okbutt_Click);
             // 
-            // panel1
+            // buttpane
             // 
-            this.panel1.Controls.Add(this.okbutt);
-            this.panel1.Controls.Add(this.cancelbutt);
-            this.panel1.Controls.Add(this.applybutt);
-            this.panel1.Location = new System.Drawing.Point(3, 326);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(345, 38);
-            this.panel1.TabIndex = 1;
+            this.buttpane.Controls.Add(this.okbutt);
+            this.buttpane.Controls.Add(this.cancelbutt);
+            this.buttpane.Controls.Add(this.applybutt);
+            this.buttpane.Location = new System.Drawing.Point(3, 326);
+            this.buttpane.Name = "buttpane";
+            this.buttpane.Size = new System.Drawing.Size(345, 38);
+            this.buttpane.TabIndex = 1;
             // 
             // maintab
             // 
@@ -140,7 +141,7 @@
             this.taskbartab.Controls.Add(this.notificationarea);
             this.taskbartab.Controls.Add(this.notpane);
             this.taskbartab.Controls.Add(this.taskbarapperance);
-            this.taskbartab.Controls.Add(this.panel2);
+            this.taskbartab.Controls.Add(this.apperancepane);
             this.taskbartab.Location = new System.Drawing.Point(4, 22);
             this.taskbartab.Name = "taskbartab";
             this.taskbartab.Padding = new System.Windows.Forms.Padding(3);
@@ -154,13 +155,14 @@
             this.howtocust.ActiveLinkColor = System.Drawing.SystemColors.HotTrack;
             this.howtocust.AutoSize = true;
             this.howtocust.LinkColor = System.Drawing.SystemColors.HotTrack;
-            this.howtocust.Location = new System.Drawing.Point(2, 283);
+            this.howtocust.Location = new System.Drawing.Point(6, 278);
             this.howtocust.Name = "howtocust";
             this.howtocust.Size = new System.Drawing.Size(162, 13);
             this.howtocust.TabIndex = 6;
             this.howtocust.TabStop = true;
             this.howtocust.Text = "How do I customize the taskbar?";
             this.howtocust.VisitedLinkColor = System.Drawing.SystemColors.HotTrack;
+            this.howtocust.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.howtocust_LinkClicked);
             // 
             // previwtxt
             // 
@@ -191,6 +193,7 @@
             this.useareopeekin.TabIndex = 7;
             this.useareopeekin.Text = "Use Areo Peek to preview the desktop";
             this.useareopeekin.UseVisualStyleBackColor = true;
+            this.useareopeekin.CheckedChanged += new System.EventHandler(this.useareopeekin_CheckedChanged);
             // 
             // areopeektxt
             // 
@@ -231,6 +234,7 @@
             this.customnotbutt.TabIndex = 1;
             this.customnotbutt.Text = "Customize";
             this.customnotbutt.UseVisualStyleBackColor = true;
+            this.customnotbutt.Click += new System.EventHandler(this.customnotbutt_Click);
             // 
             // customnottxt
             // 
@@ -245,27 +249,27 @@
             // taskbarapperance
             // 
             this.taskbarapperance.AutoSize = true;
-            this.taskbarapperance.Location = new System.Drawing.Point(11, 3);
+            this.taskbarapperance.Location = new System.Drawing.Point(10, 3);
             this.taskbarapperance.Name = "taskbarapperance";
             this.taskbarapperance.Size = new System.Drawing.Size(101, 13);
             this.taskbarapperance.TabIndex = 1;
             this.taskbarapperance.Text = "Taskbar Apperance";
             this.taskbarapperance.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // panel2
+            // apperancepane
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.taskbuttin);
-            this.panel2.Controls.Add(this.taskbarbuttttxt);
-            this.panel2.Controls.Add(this.taskbarposin);
-            this.panel2.Controls.Add(this.taskbarlocationtxt);
-            this.panel2.Controls.Add(this.usesmalliconsin);
-            this.panel2.Controls.Add(this.autohidetaskbarin);
-            this.panel2.Controls.Add(this.locktaskbarin);
-            this.panel2.Location = new System.Drawing.Point(5, 10);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(325, 132);
-            this.panel2.TabIndex = 0;
+            this.apperancepane.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.apperancepane.Controls.Add(this.taskbuttin);
+            this.apperancepane.Controls.Add(this.taskbarbuttttxt);
+            this.apperancepane.Controls.Add(this.taskbarposin);
+            this.apperancepane.Controls.Add(this.taskbarlocationtxt);
+            this.apperancepane.Controls.Add(this.usesmalliconsin);
+            this.apperancepane.Controls.Add(this.autohidetaskbarin);
+            this.apperancepane.Controls.Add(this.locktaskbarin);
+            this.apperancepane.Location = new System.Drawing.Point(5, 10);
+            this.apperancepane.Name = "apperancepane";
+            this.apperancepane.Size = new System.Drawing.Size(325, 132);
+            this.apperancepane.TabIndex = 0;
             // 
             // taskbuttin
             // 
@@ -280,6 +284,7 @@
             this.taskbuttin.Size = new System.Drawing.Size(154, 21);
             this.taskbuttin.TabIndex = 6;
             this.taskbuttin.Text = "Always combine, hide labels";
+            this.taskbuttin.SelectedIndexChanged += new System.EventHandler(this.taskbuttin_SelectedIndexChanged);
             // 
             // taskbarbuttttxt
             // 
@@ -303,6 +308,7 @@
             this.taskbarposin.Size = new System.Drawing.Size(154, 21);
             this.taskbarposin.TabIndex = 4;
             this.taskbarposin.Text = "Bottom";
+            this.taskbarposin.SelectedIndexChanged += new System.EventHandler(this.taskbarposin_SelectedIndexChanged);
             // 
             // taskbarlocationtxt
             // 
@@ -322,6 +328,7 @@
             this.usesmalliconsin.TabIndex = 2;
             this.usesmalliconsin.Text = "Use small icons";
             this.usesmalliconsin.UseVisualStyleBackColor = true;
+            this.usesmalliconsin.CheckedChanged += new System.EventHandler(this.usesmalliconsin_CheckedChanged);
             // 
             // autohidetaskbarin
             // 
@@ -332,6 +339,7 @@
             this.autohidetaskbarin.TabIndex = 1;
             this.autohidetaskbarin.Text = "Auto-hide the taskbar";
             this.autohidetaskbarin.UseVisualStyleBackColor = true;
+            this.autohidetaskbarin.CheckedChanged += new System.EventHandler(this.autohidetaskbarin_CheckedChanged);
             // 
             // locktaskbarin
             // 
@@ -342,6 +350,7 @@
             this.locktaskbarin.TabIndex = 0;
             this.locktaskbarin.Text = "Lock the taskbar";
             this.locktaskbarin.UseVisualStyleBackColor = true;
+            this.locktaskbarin.CheckedChanged += new System.EventHandler(this.locktaskbarin_CheckedChanged);
             // 
             // startmeutab
             // 
@@ -359,6 +368,19 @@
             this.startmeutab.TabIndex = 1;
             this.startmeutab.Text = "Start Menu";
             this.startmeutab.UseVisualStyleBackColor = true;
+            // 
+            // howtochange
+            // 
+            this.howtochange.ActiveLinkColor = System.Drawing.SystemColors.HotTrack;
+            this.howtochange.AutoSize = true;
+            this.howtochange.LinkColor = System.Drawing.SystemColors.HotTrack;
+            this.howtochange.Location = new System.Drawing.Point(6, 283);
+            this.howtochange.Name = "howtochange";
+            this.howtochange.Size = new System.Drawing.Size(236, 13);
+            this.howtochange.TabIndex = 7;
+            this.howtochange.TabStop = true;
+            this.howtochange.Text = "How do I change the way the Start Menu looks?";
+            this.howtochange.VisitedLinkColor = System.Drawing.SystemColors.HotTrack;
             // 
             // privacy
             // 
@@ -378,6 +400,26 @@
             this.privacytab.Name = "privacytab";
             this.privacytab.Size = new System.Drawing.Size(321, 80);
             this.privacytab.TabIndex = 4;
+            // 
+            // storerecentitemsin
+            // 
+            this.storerecentitemsin.AutoSize = true;
+            this.storerecentitemsin.Location = new System.Drawing.Point(6, 42);
+            this.storerecentitemsin.Name = "storerecentitemsin";
+            this.storerecentitemsin.Size = new System.Drawing.Size(318, 30);
+            this.storerecentitemsin.TabIndex = 1;
+            this.storerecentitemsin.Text = "Store and display recently opened programs in the Start menu \r\nand the taskbar";
+            this.storerecentitemsin.UseVisualStyleBackColor = true;
+            // 
+            // storerecentappsin
+            // 
+            this.storerecentappsin.AutoSize = true;
+            this.storerecentappsin.Location = new System.Drawing.Point(5, 19);
+            this.storerecentappsin.Name = "storerecentappsin";
+            this.storerecentappsin.Size = new System.Drawing.Size(315, 17);
+            this.storerecentappsin.TabIndex = 0;
+            this.storerecentappsin.Text = "Store and display recently opened programs in the Start menu";
+            this.storerecentappsin.UseVisualStyleBackColor = true;
             // 
             // poweractin
             // 
@@ -433,48 +475,6 @@
             this.toolbartab.Text = "Toolbar";
             this.toolbartab.UseVisualStyleBackColor = true;
             // 
-            // storerecentappsin
-            // 
-            this.storerecentappsin.AutoSize = true;
-            this.storerecentappsin.Location = new System.Drawing.Point(5, 19);
-            this.storerecentappsin.Name = "storerecentappsin";
-            this.storerecentappsin.Size = new System.Drawing.Size(315, 17);
-            this.storerecentappsin.TabIndex = 0;
-            this.storerecentappsin.Text = "Store and display recently opened programs in the Start menu";
-            this.storerecentappsin.UseVisualStyleBackColor = true;
-            // 
-            // storerecentitemsin
-            // 
-            this.storerecentitemsin.AutoSize = true;
-            this.storerecentitemsin.Location = new System.Drawing.Point(6, 42);
-            this.storerecentitemsin.Name = "storerecentitemsin";
-            this.storerecentitemsin.Size = new System.Drawing.Size(318, 30);
-            this.storerecentitemsin.TabIndex = 1;
-            this.storerecentitemsin.Text = "Store and display recently opened programs in the Start menu \r\nand the taskbar";
-            this.storerecentitemsin.UseVisualStyleBackColor = true;
-            // 
-            // howtochange
-            // 
-            this.howtochange.ActiveLinkColor = System.Drawing.SystemColors.HotTrack;
-            this.howtochange.AutoSize = true;
-            this.howtochange.LinkColor = System.Drawing.SystemColors.HotTrack;
-            this.howtochange.Location = new System.Drawing.Point(6, 283);
-            this.howtochange.Name = "howtochange";
-            this.howtochange.Size = new System.Drawing.Size(236, 13);
-            this.howtochange.TabIndex = 7;
-            this.howtochange.TabStop = true;
-            this.howtochange.Text = "How do I change the way the Start Menu looks?";
-            this.howtochange.VisitedLinkColor = System.Drawing.SystemColors.HotTrack;
-            // 
-            // toolbartxt
-            // 
-            this.toolbartxt.AutoSize = true;
-            this.toolbartxt.Location = new System.Drawing.Point(17, 10);
-            this.toolbartxt.Name = "toolbartxt";
-            this.toolbartxt.Size = new System.Drawing.Size(209, 13);
-            this.toolbartxt.TabIndex = 0;
-            this.toolbartxt.Text = "Select which toolbars to add to the taskbar";
-            // 
             // toolbarpane
             // 
             this.toolbarpane.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -487,27 +487,16 @@
             this.toolbarpane.Size = new System.Drawing.Size(307, 240);
             this.toolbarpane.TabIndex = 1;
             // 
-            // adressin
+            // deskin
             // 
-            this.adressin.AutoSize = true;
-            this.adressin.Location = new System.Drawing.Point(3, 3);
-            this.adressin.Name = "adressin";
-            this.adressin.Size = new System.Drawing.Size(58, 17);
-            this.adressin.TabIndex = 0;
-            this.adressin.Text = "Adress";
-            this.adressin.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.adressin.UseVisualStyleBackColor = true;
-            // 
-            // linksin
-            // 
-            this.linksin.AutoSize = true;
-            this.linksin.Location = new System.Drawing.Point(3, 26);
-            this.linksin.Name = "linksin";
-            this.linksin.Size = new System.Drawing.Size(51, 17);
-            this.linksin.TabIndex = 1;
-            this.linksin.Text = "Links";
-            this.linksin.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.linksin.UseVisualStyleBackColor = true;
+            this.deskin.AutoSize = true;
+            this.deskin.Location = new System.Drawing.Point(3, 72);
+            this.deskin.Name = "deskin";
+            this.deskin.Size = new System.Drawing.Size(66, 17);
+            this.deskin.TabIndex = 3;
+            this.deskin.Text = "Desktop";
+            this.deskin.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.deskin.UseVisualStyleBackColor = true;
             // 
             // tabletin
             // 
@@ -520,16 +509,36 @@
             this.tabletin.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.tabletin.UseVisualStyleBackColor = true;
             // 
-            // deskin
+            // linksin
             // 
-            this.deskin.AutoSize = true;
-            this.deskin.Location = new System.Drawing.Point(3, 72);
-            this.deskin.Name = "deskin";
-            this.deskin.Size = new System.Drawing.Size(66, 17);
-            this.deskin.TabIndex = 3;
-            this.deskin.Text = "Desktop";
-            this.deskin.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.deskin.UseVisualStyleBackColor = true;
+            this.linksin.AutoSize = true;
+            this.linksin.Location = new System.Drawing.Point(3, 26);
+            this.linksin.Name = "linksin";
+            this.linksin.Size = new System.Drawing.Size(51, 17);
+            this.linksin.TabIndex = 1;
+            this.linksin.Text = "Links";
+            this.linksin.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.linksin.UseVisualStyleBackColor = true;
+            // 
+            // adressin
+            // 
+            this.adressin.AutoSize = true;
+            this.adressin.Location = new System.Drawing.Point(3, 3);
+            this.adressin.Name = "adressin";
+            this.adressin.Size = new System.Drawing.Size(58, 17);
+            this.adressin.TabIndex = 0;
+            this.adressin.Text = "Adress";
+            this.adressin.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.adressin.UseVisualStyleBackColor = true;
+            // 
+            // toolbartxt
+            // 
+            this.toolbartxt.AutoSize = true;
+            this.toolbartxt.Location = new System.Drawing.Point(17, 10);
+            this.toolbartxt.Name = "toolbartxt";
+            this.toolbartxt.Size = new System.Drawing.Size(209, 13);
+            this.toolbartxt.TabIndex = 0;
+            this.toolbartxt.Text = "Select which toolbars to add to the taskbar";
             // 
             // taskman
             // 
@@ -537,14 +546,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(346, 361);
             this.Controls.Add(this.maintab);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.buttpane);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "taskman";
             this.Text = "Taskbar and Start Menu Properties";
-            this.panel1.ResumeLayout(false);
+            this.buttpane.ResumeLayout(false);
             this.maintab.ResumeLayout(false);
             this.taskbartab.ResumeLayout(false);
             this.taskbartab.PerformLayout();
@@ -552,8 +561,8 @@
             this.peekpane.PerformLayout();
             this.notpane.ResumeLayout(false);
             this.notpane.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.apperancepane.ResumeLayout(false);
+            this.apperancepane.PerformLayout();
             this.startmeutab.ResumeLayout(false);
             this.startmeutab.PerformLayout();
             this.privacytab.ResumeLayout(false);
@@ -571,19 +580,17 @@
         private System.Windows.Forms.Button applybutt;
         private System.Windows.Forms.Button cancelbutt;
         private System.Windows.Forms.Button okbutt;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel buttpane;
         private System.Windows.Forms.TabControl maintab;
         private System.Windows.Forms.TabPage taskbartab;
-        private System.Windows.Forms.TabPage startmeutab;
         private System.Windows.Forms.TabPage toolbartab;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel apperancepane;
         private System.Windows.Forms.Label taskbarapperance;
         private System.Windows.Forms.CheckBox locktaskbarin;
         private System.Windows.Forms.Label taskbarlocationtxt;
         private System.Windows.Forms.CheckBox usesmalliconsin;
         private System.Windows.Forms.CheckBox autohidetaskbarin;
         private System.Windows.Forms.ComboBox taskbarposin;
-        private System.Windows.Forms.ComboBox taskbuttin;
         private System.Windows.Forms.Label taskbarbuttttxt;
         private System.Windows.Forms.Label notificationarea;
         private System.Windows.Forms.Panel notpane;
@@ -609,6 +616,8 @@
         private System.Windows.Forms.CheckBox deskin;
         private System.Windows.Forms.CheckBox tabletin;
         private System.Windows.Forms.CheckBox linksin;
+        public System.Windows.Forms.ComboBox taskbuttin;
+        public System.Windows.Forms.TabPage startmeutab;
 
     }
 }
