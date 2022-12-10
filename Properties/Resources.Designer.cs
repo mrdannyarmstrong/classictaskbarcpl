@@ -81,16 +81,16 @@ namespace taskman.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap down {
+        internal static System.Drawing.Bitmap music {
             get {
-                object obj = ResourceManager.GetObject("down", resourceCulture);
+                object obj = ResourceManager.GetObject("music", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap music {
+        internal static System.Drawing.Bitmap net {
             get {
-                object obj = ResourceManager.GetObject("music", resourceCulture);
+                object obj = ResourceManager.GetObject("net", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
