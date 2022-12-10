@@ -30,6 +30,9 @@
         {
             this.custsytartxt = new System.Windows.Forms.Label();
             this.startpane = new System.Windows.Forms.Panel();
+            this.recentdocsin = new System.Windows.Forms.CheckBox();
+            this.runin = new System.Windows.Forms.CheckBox();
+            this.connectin = new System.Windows.Forms.CheckBox();
             this.controlpane = new System.Windows.Forms.Panel();
             this.controlico = new System.Windows.Forms.PictureBox();
             this.controlin0 = new System.Windows.Forms.RadioButton();
@@ -42,7 +45,38 @@
             this.comptxt = new System.Windows.Forms.Label();
             this.compin1 = new System.Windows.Forms.RadioButton();
             this.compin2 = new System.Windows.Forms.RadioButton();
-            this.connectin = new System.Windows.Forms.CheckBox();
+            this.vidpane = new System.Windows.Forms.Panel();
+            this.vidico = new System.Windows.Forms.PictureBox();
+            this.vids0 = new System.Windows.Forms.RadioButton();
+            this.vidtxt = new System.Windows.Forms.Label();
+            this.vids1 = new System.Windows.Forms.RadioButton();
+            this.vids2 = new System.Windows.Forms.RadioButton();
+            this.downpane = new System.Windows.Forms.Panel();
+            this.netico = new System.Windows.Forms.PictureBox();
+            this.net0 = new System.Windows.Forms.RadioButton();
+            this.netxt = new System.Windows.Forms.Label();
+            this.net1 = new System.Windows.Forms.RadioButton();
+            this.net2 = new System.Windows.Forms.RadioButton();
+            this.defprogin = new System.Windows.Forms.CheckBox();
+            this.devin = new System.Windows.Forms.CheckBox();
+            this.picpane = new System.Windows.Forms.Panel();
+            this.picio = new System.Windows.Forms.PictureBox();
+            this.pics0 = new System.Windows.Forms.RadioButton();
+            this.pictxt = new System.Windows.Forms.Label();
+            this.pics1 = new System.Windows.Forms.RadioButton();
+            this.pics2 = new System.Windows.Forms.RadioButton();
+            this.docpane = new System.Windows.Forms.Panel();
+            this.docsico = new System.Windows.Forms.PictureBox();
+            this.docs0 = new System.Windows.Forms.RadioButton();
+            this.docstxt = new System.Windows.Forms.Label();
+            this.docs1 = new System.Windows.Forms.RadioButton();
+            this.docs2 = new System.Windows.Forms.RadioButton();
+            this.musicpane = new System.Windows.Forms.Panel();
+            this.musico = new System.Windows.Forms.PictureBox();
+            this.music0 = new System.Windows.Forms.RadioButton();
+            this.mustxt = new System.Windows.Forms.Label();
+            this.music1 = new System.Windows.Forms.RadioButton();
+            this.music2 = new System.Windows.Forms.RadioButton();
             this.sizepane = new System.Windows.Forms.Panel();
             this.itemnumtxt = new System.Windows.Forms.Label();
             this.itemnumin = new System.Windows.Forms.NumericUpDown();
@@ -52,57 +86,24 @@
             this.cancelbutt = new System.Windows.Forms.Button();
             this.okbutt = new System.Windows.Forms.Button();
             this.resetbutt = new System.Windows.Forms.Button();
-            this.runin = new System.Windows.Forms.CheckBox();
-            this.vidpane = new System.Windows.Forms.Panel();
-            this.vidico = new System.Windows.Forms.PictureBox();
-            this.vid0 = new System.Windows.Forms.RadioButton();
-            this.vidtxt = new System.Windows.Forms.Label();
-            this.vid1 = new System.Windows.Forms.RadioButton();
-            this.vid2 = new System.Windows.Forms.RadioButton();
-            this.picpane = new System.Windows.Forms.Panel();
-            this.picio = new System.Windows.Forms.PictureBox();
-            this.pic0 = new System.Windows.Forms.RadioButton();
-            this.pictxt = new System.Windows.Forms.Label();
-            this.pic1 = new System.Windows.Forms.RadioButton();
-            this.pic2 = new System.Windows.Forms.RadioButton();
-            this.musicpane = new System.Windows.Forms.Panel();
-            this.musico = new System.Windows.Forms.PictureBox();
-            this.mus0 = new System.Windows.Forms.RadioButton();
-            this.mustxt = new System.Windows.Forms.Label();
-            this.mus1 = new System.Windows.Forms.RadioButton();
-            this.mus2 = new System.Windows.Forms.RadioButton();
-            this.docpane = new System.Windows.Forms.Panel();
-            this.docsico = new System.Windows.Forms.PictureBox();
-            this.docs0 = new System.Windows.Forms.RadioButton();
-            this.docstxt = new System.Windows.Forms.Label();
-            this.docs1 = new System.Windows.Forms.RadioButton();
-            this.docs2 = new System.Windows.Forms.RadioButton();
-            this.downpane = new System.Windows.Forms.Panel();
-            this.downico = new System.Windows.Forms.PictureBox();
-            this.down0 = new System.Windows.Forms.RadioButton();
-            this.downtxt = new System.Windows.Forms.Label();
-            this.down1 = new System.Windows.Forms.RadioButton();
-            this.down2 = new System.Windows.Forms.RadioButton();
-            this.devin = new System.Windows.Forms.CheckBox();
-            this.defprogin = new System.Windows.Forms.CheckBox();
             this.startpane.SuspendLayout();
             this.controlpane.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.controlico)).BeginInit();
             this.comppane.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.compico)).BeginInit();
+            this.vidpane.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.vidico)).BeginInit();
+            this.downpane.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.netico)).BeginInit();
+            this.picpane.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picio)).BeginInit();
+            this.docpane.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.docsico)).BeginInit();
+            this.musicpane.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.musico)).BeginInit();
             this.sizepane.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.itemnumin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.appnumin)).BeginInit();
-            this.vidpane.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.vidico)).BeginInit();
-            this.picpane.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picio)).BeginInit();
-            this.musicpane.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.musico)).BeginInit();
-            this.docpane.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.docsico)).BeginInit();
-            this.downpane.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.downico)).BeginInit();
             this.SuspendLayout();
             // 
             // custsytartxt
@@ -119,6 +120,8 @@
             // 
             this.startpane.AutoScroll = true;
             this.startpane.BackColor = System.Drawing.Color.White;
+            this.startpane.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.startpane.Controls.Add(this.recentdocsin);
             this.startpane.Controls.Add(this.runin);
             this.startpane.Controls.Add(this.connectin);
             this.startpane.Controls.Add(this.controlpane);
@@ -135,6 +138,39 @@
             this.startpane.Size = new System.Drawing.Size(338, 249);
             this.startpane.TabIndex = 2;
             // 
+            // recentdocsin
+            // 
+            this.recentdocsin.AutoSize = true;
+            this.recentdocsin.Location = new System.Drawing.Point(4, 761);
+            this.recentdocsin.Name = "recentdocsin";
+            this.recentdocsin.Size = new System.Drawing.Size(118, 17);
+            this.recentdocsin.TabIndex = 21;
+            this.recentdocsin.Text = "Recent Documents";
+            this.recentdocsin.UseVisualStyleBackColor = true;
+            this.recentdocsin.CheckedChanged += new System.EventHandler(this.recentdocsin_CheckedChanged);
+            // 
+            // runin
+            // 
+            this.runin.AutoSize = true;
+            this.runin.Location = new System.Drawing.Point(4, 784);
+            this.runin.Name = "runin";
+            this.runin.Size = new System.Drawing.Size(46, 17);
+            this.runin.TabIndex = 20;
+            this.runin.Text = "Run";
+            this.runin.UseVisualStyleBackColor = true;
+            this.runin.CheckedChanged += new System.EventHandler(this.runin_CheckedChanged);
+            // 
+            // connectin
+            // 
+            this.connectin.AutoSize = true;
+            this.connectin.Location = new System.Drawing.Point(7, 102);
+            this.connectin.Name = "connectin";
+            this.connectin.Size = new System.Drawing.Size(78, 17);
+            this.connectin.TabIndex = 6;
+            this.connectin.Text = "Connect to";
+            this.connectin.UseVisualStyleBackColor = true;
+            this.connectin.CheckedChanged += new System.EventHandler(this.connectin_CheckedChanged);
+            // 
             // controlpane
             // 
             this.controlpane.Controls.Add(this.controlico);
@@ -142,7 +178,7 @@
             this.controlpane.Controls.Add(this.controltxt);
             this.controlpane.Controls.Add(this.controlin1);
             this.controlpane.Controls.Add(this.controlin2);
-            this.controlpane.Location = new System.Drawing.Point(0, 119);
+            this.controlpane.Location = new System.Drawing.Point(4, 119);
             this.controlpane.Name = "controlpane";
             this.controlpane.Size = new System.Drawing.Size(200, 94);
             this.controlpane.TabIndex = 6;
@@ -167,6 +203,7 @@
             this.controlin0.TabIndex = 4;
             this.controlin0.Text = "Don\'t display this item";
             this.controlin0.UseVisualStyleBackColor = true;
+            this.controlin0.CheckedChanged += new System.EventHandler(this.controlin0_CheckedChanged);
             // 
             // controltxt
             // 
@@ -186,6 +223,7 @@
             this.controlin1.TabIndex = 3;
             this.controlin1.Text = "Display as menu";
             this.controlin1.UseVisualStyleBackColor = true;
+            this.controlin1.CheckedChanged += new System.EventHandler(this.controlin1_CheckedChanged);
             // 
             // controlin2
             // 
@@ -198,6 +236,7 @@
             this.controlin2.TabStop = true;
             this.controlin2.Text = "Display as link";
             this.controlin2.UseVisualStyleBackColor = true;
+            this.controlin2.CheckedChanged += new System.EventHandler(this.controlin2_CheckedChanged);
             // 
             // comppane
             // 
@@ -206,7 +245,7 @@
             this.comppane.Controls.Add(this.comptxt);
             this.comppane.Controls.Add(this.compin1);
             this.comppane.Controls.Add(this.compin2);
-            this.comppane.Location = new System.Drawing.Point(3, 3);
+            this.comppane.Location = new System.Drawing.Point(7, 3);
             this.comppane.Name = "comppane";
             this.comppane.Size = new System.Drawing.Size(200, 94);
             this.comppane.TabIndex = 5;
@@ -264,15 +303,368 @@
             this.compin2.UseVisualStyleBackColor = true;
             this.compin2.CheckedChanged += new System.EventHandler(this.compin2_CheckedChanged);
             // 
-            // connectin
+            // vidpane
             // 
-            this.connectin.AutoSize = true;
-            this.connectin.Location = new System.Drawing.Point(3, 102);
-            this.connectin.Name = "connectin";
-            this.connectin.Size = new System.Drawing.Size(78, 17);
-            this.connectin.TabIndex = 6;
-            this.connectin.Text = "Connect to";
-            this.connectin.UseVisualStyleBackColor = true;
+            this.vidpane.Controls.Add(this.vidico);
+            this.vidpane.Controls.Add(this.vids0);
+            this.vidpane.Controls.Add(this.vidtxt);
+            this.vidpane.Controls.Add(this.vids1);
+            this.vidpane.Controls.Add(this.vids2);
+            this.vidpane.Location = new System.Drawing.Point(4, 661);
+            this.vidpane.Name = "vidpane";
+            this.vidpane.Size = new System.Drawing.Size(200, 94);
+            this.vidpane.TabIndex = 19;
+            // 
+            // vidico
+            // 
+            this.vidico.BackColor = System.Drawing.Color.Transparent;
+            this.vidico.BackgroundImage = global::taskman.Properties.Resources.vid;
+            this.vidico.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.vidico.Location = new System.Drawing.Point(3, 3);
+            this.vidico.Name = "vidico";
+            this.vidico.Size = new System.Drawing.Size(19, 21);
+            this.vidico.TabIndex = 0;
+            this.vidico.TabStop = false;
+            // 
+            // vids0
+            // 
+            this.vids0.AutoSize = true;
+            this.vids0.Checked = true;
+            this.vids0.Location = new System.Drawing.Point(3, 74);
+            this.vids0.Name = "vids0";
+            this.vids0.Size = new System.Drawing.Size(126, 17);
+            this.vids0.TabIndex = 4;
+            this.vids0.TabStop = true;
+            this.vids0.Text = "Don\'t display this item";
+            this.vids0.UseVisualStyleBackColor = true;
+            this.vids0.CheckedChanged += new System.EventHandler(this.vids0_CheckedChanged);
+            // 
+            // vidtxt
+            // 
+            this.vidtxt.AutoSize = true;
+            this.vidtxt.Location = new System.Drawing.Point(28, 9);
+            this.vidtxt.Name = "vidtxt";
+            this.vidtxt.Size = new System.Drawing.Size(39, 13);
+            this.vidtxt.TabIndex = 1;
+            this.vidtxt.Text = "Videos";
+            // 
+            // vids1
+            // 
+            this.vids1.AutoSize = true;
+            this.vids1.Location = new System.Drawing.Point(3, 53);
+            this.vids1.Name = "vids1";
+            this.vids1.Size = new System.Drawing.Size(102, 17);
+            this.vids1.TabIndex = 3;
+            this.vids1.Text = "Display as menu";
+            this.vids1.UseVisualStyleBackColor = true;
+            this.vids1.CheckedChanged += new System.EventHandler(this.vids1_CheckedChanged);
+            // 
+            // vids2
+            // 
+            this.vids2.AutoSize = true;
+            this.vids2.Location = new System.Drawing.Point(3, 30);
+            this.vids2.Name = "vids2";
+            this.vids2.Size = new System.Drawing.Size(92, 17);
+            this.vids2.TabIndex = 2;
+            this.vids2.Text = "Display as link";
+            this.vids2.UseVisualStyleBackColor = true;
+            this.vids2.CheckedChanged += new System.EventHandler(this.vids2_CheckedChanged);
+            // 
+            // downpane
+            // 
+            this.downpane.Controls.Add(this.netico);
+            this.downpane.Controls.Add(this.net0);
+            this.downpane.Controls.Add(this.netxt);
+            this.downpane.Controls.Add(this.net1);
+            this.downpane.Controls.Add(this.net2);
+            this.downpane.Location = new System.Drawing.Point(4, 262);
+            this.downpane.Name = "downpane";
+            this.downpane.Size = new System.Drawing.Size(200, 94);
+            this.downpane.TabIndex = 13;
+            // 
+            // netico
+            // 
+            this.netico.BackColor = System.Drawing.Color.Transparent;
+            this.netico.BackgroundImage = global::taskman.Properties.Resources.net;
+            this.netico.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.netico.ImageLocation = "";
+            this.netico.Location = new System.Drawing.Point(3, 3);
+            this.netico.Name = "netico";
+            this.netico.Size = new System.Drawing.Size(19, 21);
+            this.netico.TabIndex = 0;
+            this.netico.TabStop = false;
+            // 
+            // net0
+            // 
+            this.net0.AutoSize = true;
+            this.net0.Checked = true;
+            this.net0.Location = new System.Drawing.Point(3, 76);
+            this.net0.Name = "net0";
+            this.net0.Size = new System.Drawing.Size(126, 17);
+            this.net0.TabIndex = 4;
+            this.net0.TabStop = true;
+            this.net0.Text = "Don\'t display this item";
+            this.net0.UseVisualStyleBackColor = true;
+            this.net0.CheckedChanged += new System.EventHandler(this.net0_CheckedChanged);
+            // 
+            // netxt
+            // 
+            this.netxt.AutoSize = true;
+            this.netxt.Location = new System.Drawing.Point(28, 9);
+            this.netxt.Name = "netxt";
+            this.netxt.Size = new System.Drawing.Size(47, 13);
+            this.netxt.TabIndex = 1;
+            this.netxt.Text = "Network";
+            // 
+            // net1
+            // 
+            this.net1.AutoSize = true;
+            this.net1.Location = new System.Drawing.Point(3, 53);
+            this.net1.Name = "net1";
+            this.net1.Size = new System.Drawing.Size(102, 17);
+            this.net1.TabIndex = 3;
+            this.net1.Text = "Display as menu";
+            this.net1.UseVisualStyleBackColor = true;
+            this.net1.CheckedChanged += new System.EventHandler(this.net1_CheckedChanged);
+            // 
+            // net2
+            // 
+            this.net2.AutoSize = true;
+            this.net2.Location = new System.Drawing.Point(3, 30);
+            this.net2.Name = "net2";
+            this.net2.Size = new System.Drawing.Size(92, 17);
+            this.net2.TabIndex = 2;
+            this.net2.Text = "Display as link";
+            this.net2.UseVisualStyleBackColor = true;
+            this.net2.CheckedChanged += new System.EventHandler(this.net2_CheckedChanged);
+            // 
+            // defprogin
+            // 
+            this.defprogin.AutoSize = true;
+            this.defprogin.CheckAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.defprogin.Checked = true;
+            this.defprogin.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.defprogin.Location = new System.Drawing.Point(10, 221);
+            this.defprogin.Name = "defprogin";
+            this.defprogin.Size = new System.Drawing.Size(107, 17);
+            this.defprogin.TabIndex = 14;
+            this.defprogin.Text = "Default Programs";
+            this.defprogin.UseVisualStyleBackColor = true;
+            this.defprogin.CheckedChanged += new System.EventHandler(this.defprogin_CheckedChanged);
+            // 
+            // devin
+            // 
+            this.devin.AutoSize = true;
+            this.devin.Checked = true;
+            this.devin.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.devin.Location = new System.Drawing.Point(10, 242);
+            this.devin.Name = "devin";
+            this.devin.Size = new System.Drawing.Size(124, 17);
+            this.devin.TabIndex = 16;
+            this.devin.Text = "Devices and Printers";
+            this.devin.UseVisualStyleBackColor = true;
+            this.devin.CheckedChanged += new System.EventHandler(this.devin_CheckedChanged);
+            // 
+            // picpane
+            // 
+            this.picpane.Controls.Add(this.picio);
+            this.picpane.Controls.Add(this.pics0);
+            this.picpane.Controls.Add(this.pictxt);
+            this.picpane.Controls.Add(this.pics1);
+            this.picpane.Controls.Add(this.pics2);
+            this.picpane.Location = new System.Drawing.Point(4, 561);
+            this.picpane.Name = "picpane";
+            this.picpane.Size = new System.Drawing.Size(200, 94);
+            this.picpane.TabIndex = 18;
+            // 
+            // picio
+            // 
+            this.picio.BackColor = System.Drawing.Color.Transparent;
+            this.picio.BackgroundImage = global::taskman.Properties.Resources.pics;
+            this.picio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picio.Location = new System.Drawing.Point(3, 3);
+            this.picio.Name = "picio";
+            this.picio.Size = new System.Drawing.Size(19, 21);
+            this.picio.TabIndex = 0;
+            this.picio.TabStop = false;
+            // 
+            // pics0
+            // 
+            this.pics0.AutoSize = true;
+            this.pics0.Location = new System.Drawing.Point(3, 76);
+            this.pics0.Name = "pics0";
+            this.pics0.Size = new System.Drawing.Size(126, 17);
+            this.pics0.TabIndex = 4;
+            this.pics0.Text = "Don\'t display this item";
+            this.pics0.UseVisualStyleBackColor = true;
+            this.pics0.CheckedChanged += new System.EventHandler(this.pics0_CheckedChanged);
+            // 
+            // pictxt
+            // 
+            this.pictxt.AutoSize = true;
+            this.pictxt.Location = new System.Drawing.Point(28, 9);
+            this.pictxt.Name = "pictxt";
+            this.pictxt.Size = new System.Drawing.Size(45, 13);
+            this.pictxt.TabIndex = 1;
+            this.pictxt.Text = "Pictures";
+            // 
+            // pics1
+            // 
+            this.pics1.AutoSize = true;
+            this.pics1.Location = new System.Drawing.Point(3, 53);
+            this.pics1.Name = "pics1";
+            this.pics1.Size = new System.Drawing.Size(102, 17);
+            this.pics1.TabIndex = 3;
+            this.pics1.Text = "Display as menu";
+            this.pics1.UseVisualStyleBackColor = true;
+            this.pics1.CheckedChanged += new System.EventHandler(this.pics1_CheckedChanged);
+            // 
+            // pics2
+            // 
+            this.pics2.AutoSize = true;
+            this.pics2.Checked = true;
+            this.pics2.Location = new System.Drawing.Point(3, 30);
+            this.pics2.Name = "pics2";
+            this.pics2.Size = new System.Drawing.Size(92, 17);
+            this.pics2.TabIndex = 2;
+            this.pics2.TabStop = true;
+            this.pics2.Text = "Display as link";
+            this.pics2.UseVisualStyleBackColor = true;
+            this.pics2.CheckedChanged += new System.EventHandler(this.pics2_CheckedChanged);
+            // 
+            // docpane
+            // 
+            this.docpane.Controls.Add(this.docsico);
+            this.docpane.Controls.Add(this.docs0);
+            this.docpane.Controls.Add(this.docstxt);
+            this.docpane.Controls.Add(this.docs1);
+            this.docpane.Controls.Add(this.docs2);
+            this.docpane.Location = new System.Drawing.Point(4, 364);
+            this.docpane.Name = "docpane";
+            this.docpane.Size = new System.Drawing.Size(200, 94);
+            this.docpane.TabIndex = 15;
+            // 
+            // docsico
+            // 
+            this.docsico.BackColor = System.Drawing.Color.Transparent;
+            this.docsico.BackgroundImage = global::taskman.Properties.Resources.docs;
+            this.docsico.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.docsico.Location = new System.Drawing.Point(3, 3);
+            this.docsico.Name = "docsico";
+            this.docsico.Size = new System.Drawing.Size(19, 21);
+            this.docsico.TabIndex = 0;
+            this.docsico.TabStop = false;
+            // 
+            // docs0
+            // 
+            this.docs0.AutoSize = true;
+            this.docs0.Location = new System.Drawing.Point(3, 76);
+            this.docs0.Name = "docs0";
+            this.docs0.Size = new System.Drawing.Size(126, 17);
+            this.docs0.TabIndex = 4;
+            this.docs0.Text = "Don\'t display this item";
+            this.docs0.UseVisualStyleBackColor = true;
+            this.docs0.CheckedChanged += new System.EventHandler(this.docs0_CheckedChanged);
+            // 
+            // docstxt
+            // 
+            this.docstxt.AutoSize = true;
+            this.docstxt.Location = new System.Drawing.Point(28, 9);
+            this.docstxt.Name = "docstxt";
+            this.docstxt.Size = new System.Drawing.Size(61, 13);
+            this.docstxt.TabIndex = 1;
+            this.docstxt.Text = "Documents";
+            // 
+            // docs1
+            // 
+            this.docs1.AutoSize = true;
+            this.docs1.Location = new System.Drawing.Point(3, 53);
+            this.docs1.Name = "docs1";
+            this.docs1.Size = new System.Drawing.Size(102, 17);
+            this.docs1.TabIndex = 3;
+            this.docs1.Text = "Display as menu";
+            this.docs1.UseVisualStyleBackColor = true;
+            this.docs1.CheckedChanged += new System.EventHandler(this.docs1_CheckedChanged);
+            // 
+            // docs2
+            // 
+            this.docs2.AutoSize = true;
+            this.docs2.Checked = true;
+            this.docs2.Location = new System.Drawing.Point(3, 30);
+            this.docs2.Name = "docs2";
+            this.docs2.Size = new System.Drawing.Size(92, 17);
+            this.docs2.TabIndex = 2;
+            this.docs2.TabStop = true;
+            this.docs2.Text = "Display as link";
+            this.docs2.UseVisualStyleBackColor = true;
+            this.docs2.CheckedChanged += new System.EventHandler(this.docs2_CheckedChanged);
+            // 
+            // musicpane
+            // 
+            this.musicpane.Controls.Add(this.musico);
+            this.musicpane.Controls.Add(this.music0);
+            this.musicpane.Controls.Add(this.mustxt);
+            this.musicpane.Controls.Add(this.music1);
+            this.musicpane.Controls.Add(this.music2);
+            this.musicpane.Location = new System.Drawing.Point(4, 461);
+            this.musicpane.Name = "musicpane";
+            this.musicpane.Size = new System.Drawing.Size(200, 94);
+            this.musicpane.TabIndex = 17;
+            // 
+            // musico
+            // 
+            this.musico.BackColor = System.Drawing.Color.Transparent;
+            this.musico.BackgroundImage = global::taskman.Properties.Resources.music;
+            this.musico.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.musico.Location = new System.Drawing.Point(3, 3);
+            this.musico.Name = "musico";
+            this.musico.Size = new System.Drawing.Size(19, 21);
+            this.musico.TabIndex = 0;
+            this.musico.TabStop = false;
+            // 
+            // music0
+            // 
+            this.music0.AutoSize = true;
+            this.music0.Location = new System.Drawing.Point(3, 76);
+            this.music0.Name = "music0";
+            this.music0.Size = new System.Drawing.Size(126, 17);
+            this.music0.TabIndex = 4;
+            this.music0.Text = "Don\'t display this item";
+            this.music0.UseVisualStyleBackColor = true;
+            this.music0.CheckedChanged += new System.EventHandler(this.music0_CheckedChanged);
+            // 
+            // mustxt
+            // 
+            this.mustxt.AutoSize = true;
+            this.mustxt.Location = new System.Drawing.Point(28, 9);
+            this.mustxt.Name = "mustxt";
+            this.mustxt.Size = new System.Drawing.Size(35, 13);
+            this.mustxt.TabIndex = 1;
+            this.mustxt.Text = "Music";
+            // 
+            // music1
+            // 
+            this.music1.AutoSize = true;
+            this.music1.Location = new System.Drawing.Point(3, 53);
+            this.music1.Name = "music1";
+            this.music1.Size = new System.Drawing.Size(102, 17);
+            this.music1.TabIndex = 3;
+            this.music1.Text = "Display as menu";
+            this.music1.UseVisualStyleBackColor = true;
+            this.music1.CheckedChanged += new System.EventHandler(this.music1_CheckedChanged);
+            // 
+            // music2
+            // 
+            this.music2.AutoSize = true;
+            this.music2.Checked = true;
+            this.music2.Location = new System.Drawing.Point(3, 30);
+            this.music2.Name = "music2";
+            this.music2.Size = new System.Drawing.Size(92, 17);
+            this.music2.TabIndex = 2;
+            this.music2.TabStop = true;
+            this.music2.Text = "Display as link";
+            this.music2.UseVisualStyleBackColor = true;
+            this.music2.CheckedChanged += new System.EventHandler(this.music2_CheckedChanged);
             // 
             // sizepane
             // 
@@ -311,6 +703,7 @@
             0,
             0,
             0});
+            this.itemnumin.ValueChanged += new System.EventHandler(this.itemnumin_ValueChanged);
             // 
             // appnumin
             // 
@@ -328,6 +721,7 @@
             0,
             0,
             0});
+            this.appnumin.ValueChanged += new System.EventHandler(this.appnumin_ValueChanged);
             // 
             // appnumtxt
             // 
@@ -375,357 +769,7 @@
             this.resetbutt.TabIndex = 7;
             this.resetbutt.Text = "Use Default Settings";
             this.resetbutt.UseVisualStyleBackColor = true;
-            // 
-            // runin
-            // 
-            this.runin.AutoSize = true;
-            this.runin.Location = new System.Drawing.Point(9, 761);
-            this.runin.Name = "runin";
-            this.runin.Size = new System.Drawing.Size(46, 17);
-            this.runin.TabIndex = 20;
-            this.runin.Text = "Run";
-            this.runin.UseVisualStyleBackColor = true;
-            // 
-            // vidpane
-            // 
-            this.vidpane.Controls.Add(this.vidico);
-            this.vidpane.Controls.Add(this.vid0);
-            this.vidpane.Controls.Add(this.vidtxt);
-            this.vidpane.Controls.Add(this.vid1);
-            this.vidpane.Controls.Add(this.vid2);
-            this.vidpane.Location = new System.Drawing.Point(6, 661);
-            this.vidpane.Name = "vidpane";
-            this.vidpane.Size = new System.Drawing.Size(200, 94);
-            this.vidpane.TabIndex = 19;
-            // 
-            // vidico
-            // 
-            this.vidico.BackColor = System.Drawing.Color.Transparent;
-            this.vidico.BackgroundImage = global::taskman.Properties.Resources.vid;
-            this.vidico.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.vidico.Location = new System.Drawing.Point(3, 3);
-            this.vidico.Name = "vidico";
-            this.vidico.Size = new System.Drawing.Size(19, 21);
-            this.vidico.TabIndex = 0;
-            this.vidico.TabStop = false;
-            // 
-            // vid0
-            // 
-            this.vid0.AutoSize = true;
-            this.vid0.Location = new System.Drawing.Point(3, 74);
-            this.vid0.Name = "vid0";
-            this.vid0.Size = new System.Drawing.Size(126, 17);
-            this.vid0.TabIndex = 4;
-            this.vid0.Text = "Don\'t display this item";
-            this.vid0.UseVisualStyleBackColor = true;
-            // 
-            // vidtxt
-            // 
-            this.vidtxt.AutoSize = true;
-            this.vidtxt.Location = new System.Drawing.Point(28, 9);
-            this.vidtxt.Name = "vidtxt";
-            this.vidtxt.Size = new System.Drawing.Size(39, 13);
-            this.vidtxt.TabIndex = 1;
-            this.vidtxt.Text = "Videos";
-            // 
-            // vid1
-            // 
-            this.vid1.AutoSize = true;
-            this.vid1.Location = new System.Drawing.Point(3, 53);
-            this.vid1.Name = "vid1";
-            this.vid1.Size = new System.Drawing.Size(102, 17);
-            this.vid1.TabIndex = 3;
-            this.vid1.Text = "Display as menu";
-            this.vid1.UseVisualStyleBackColor = true;
-            // 
-            // vid2
-            // 
-            this.vid2.AutoSize = true;
-            this.vid2.Checked = true;
-            this.vid2.Location = new System.Drawing.Point(3, 30);
-            this.vid2.Name = "vid2";
-            this.vid2.Size = new System.Drawing.Size(92, 17);
-            this.vid2.TabIndex = 2;
-            this.vid2.TabStop = true;
-            this.vid2.Text = "Display as link";
-            this.vid2.UseVisualStyleBackColor = true;
-            // 
-            // picpane
-            // 
-            this.picpane.Controls.Add(this.picio);
-            this.picpane.Controls.Add(this.pic0);
-            this.picpane.Controls.Add(this.pictxt);
-            this.picpane.Controls.Add(this.pic1);
-            this.picpane.Controls.Add(this.pic2);
-            this.picpane.Location = new System.Drawing.Point(6, 561);
-            this.picpane.Name = "picpane";
-            this.picpane.Size = new System.Drawing.Size(200, 94);
-            this.picpane.TabIndex = 18;
-            // 
-            // picio
-            // 
-            this.picio.BackColor = System.Drawing.Color.Transparent;
-            this.picio.BackgroundImage = global::taskman.Properties.Resources.pics;
-            this.picio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picio.Location = new System.Drawing.Point(3, 3);
-            this.picio.Name = "picio";
-            this.picio.Size = new System.Drawing.Size(19, 21);
-            this.picio.TabIndex = 0;
-            this.picio.TabStop = false;
-            // 
-            // pic0
-            // 
-            this.pic0.AutoSize = true;
-            this.pic0.Location = new System.Drawing.Point(3, 76);
-            this.pic0.Name = "pic0";
-            this.pic0.Size = new System.Drawing.Size(126, 17);
-            this.pic0.TabIndex = 4;
-            this.pic0.Text = "Don\'t display this item";
-            this.pic0.UseVisualStyleBackColor = true;
-            // 
-            // pictxt
-            // 
-            this.pictxt.AutoSize = true;
-            this.pictxt.Location = new System.Drawing.Point(28, 9);
-            this.pictxt.Name = "pictxt";
-            this.pictxt.Size = new System.Drawing.Size(45, 13);
-            this.pictxt.TabIndex = 1;
-            this.pictxt.Text = "Pictures";
-            // 
-            // pic1
-            // 
-            this.pic1.AutoSize = true;
-            this.pic1.Location = new System.Drawing.Point(3, 53);
-            this.pic1.Name = "pic1";
-            this.pic1.Size = new System.Drawing.Size(102, 17);
-            this.pic1.TabIndex = 3;
-            this.pic1.Text = "Display as menu";
-            this.pic1.UseVisualStyleBackColor = true;
-            // 
-            // pic2
-            // 
-            this.pic2.AutoSize = true;
-            this.pic2.Checked = true;
-            this.pic2.Location = new System.Drawing.Point(3, 30);
-            this.pic2.Name = "pic2";
-            this.pic2.Size = new System.Drawing.Size(92, 17);
-            this.pic2.TabIndex = 2;
-            this.pic2.TabStop = true;
-            this.pic2.Text = "Display as link";
-            this.pic2.UseVisualStyleBackColor = true;
-            // 
-            // musicpane
-            // 
-            this.musicpane.Controls.Add(this.musico);
-            this.musicpane.Controls.Add(this.mus0);
-            this.musicpane.Controls.Add(this.mustxt);
-            this.musicpane.Controls.Add(this.mus1);
-            this.musicpane.Controls.Add(this.mus2);
-            this.musicpane.Location = new System.Drawing.Point(6, 461);
-            this.musicpane.Name = "musicpane";
-            this.musicpane.Size = new System.Drawing.Size(200, 94);
-            this.musicpane.TabIndex = 17;
-            // 
-            // musico
-            // 
-            this.musico.BackColor = System.Drawing.Color.Transparent;
-            this.musico.BackgroundImage = global::taskman.Properties.Resources.music;
-            this.musico.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.musico.Location = new System.Drawing.Point(3, 3);
-            this.musico.Name = "musico";
-            this.musico.Size = new System.Drawing.Size(19, 21);
-            this.musico.TabIndex = 0;
-            this.musico.TabStop = false;
-            // 
-            // mus0
-            // 
-            this.mus0.AutoSize = true;
-            this.mus0.Location = new System.Drawing.Point(3, 76);
-            this.mus0.Name = "mus0";
-            this.mus0.Size = new System.Drawing.Size(126, 17);
-            this.mus0.TabIndex = 4;
-            this.mus0.Text = "Don\'t display this item";
-            this.mus0.UseVisualStyleBackColor = true;
-            // 
-            // mustxt
-            // 
-            this.mustxt.AutoSize = true;
-            this.mustxt.Location = new System.Drawing.Point(28, 9);
-            this.mustxt.Name = "mustxt";
-            this.mustxt.Size = new System.Drawing.Size(35, 13);
-            this.mustxt.TabIndex = 1;
-            this.mustxt.Text = "Music";
-            // 
-            // mus1
-            // 
-            this.mus1.AutoSize = true;
-            this.mus1.Location = new System.Drawing.Point(3, 53);
-            this.mus1.Name = "mus1";
-            this.mus1.Size = new System.Drawing.Size(102, 17);
-            this.mus1.TabIndex = 3;
-            this.mus1.Text = "Display as menu";
-            this.mus1.UseVisualStyleBackColor = true;
-            // 
-            // mus2
-            // 
-            this.mus2.AutoSize = true;
-            this.mus2.Checked = true;
-            this.mus2.Location = new System.Drawing.Point(3, 30);
-            this.mus2.Name = "mus2";
-            this.mus2.Size = new System.Drawing.Size(92, 17);
-            this.mus2.TabIndex = 2;
-            this.mus2.TabStop = true;
-            this.mus2.Text = "Display as link";
-            this.mus2.UseVisualStyleBackColor = true;
-            // 
-            // docpane
-            // 
-            this.docpane.Controls.Add(this.docsico);
-            this.docpane.Controls.Add(this.docs0);
-            this.docpane.Controls.Add(this.docstxt);
-            this.docpane.Controls.Add(this.docs1);
-            this.docpane.Controls.Add(this.docs2);
-            this.docpane.Location = new System.Drawing.Point(6, 362);
-            this.docpane.Name = "docpane";
-            this.docpane.Size = new System.Drawing.Size(200, 94);
-            this.docpane.TabIndex = 15;
-            // 
-            // docsico
-            // 
-            this.docsico.BackColor = System.Drawing.Color.Transparent;
-            this.docsico.BackgroundImage = global::taskman.Properties.Resources.docs;
-            this.docsico.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.docsico.Location = new System.Drawing.Point(3, 3);
-            this.docsico.Name = "docsico";
-            this.docsico.Size = new System.Drawing.Size(19, 21);
-            this.docsico.TabIndex = 0;
-            this.docsico.TabStop = false;
-            // 
-            // docs0
-            // 
-            this.docs0.AutoSize = true;
-            this.docs0.Location = new System.Drawing.Point(3, 76);
-            this.docs0.Name = "docs0";
-            this.docs0.Size = new System.Drawing.Size(126, 17);
-            this.docs0.TabIndex = 4;
-            this.docs0.Text = "Don\'t display this item";
-            this.docs0.UseVisualStyleBackColor = true;
-            // 
-            // docstxt
-            // 
-            this.docstxt.AutoSize = true;
-            this.docstxt.Location = new System.Drawing.Point(28, 9);
-            this.docstxt.Name = "docstxt";
-            this.docstxt.Size = new System.Drawing.Size(61, 13);
-            this.docstxt.TabIndex = 1;
-            this.docstxt.Text = "Documents";
-            // 
-            // docs1
-            // 
-            this.docs1.AutoSize = true;
-            this.docs1.Location = new System.Drawing.Point(3, 53);
-            this.docs1.Name = "docs1";
-            this.docs1.Size = new System.Drawing.Size(102, 17);
-            this.docs1.TabIndex = 3;
-            this.docs1.Text = "Display as menu";
-            this.docs1.UseVisualStyleBackColor = true;
-            // 
-            // docs2
-            // 
-            this.docs2.AutoSize = true;
-            this.docs2.Checked = true;
-            this.docs2.Location = new System.Drawing.Point(3, 30);
-            this.docs2.Name = "docs2";
-            this.docs2.Size = new System.Drawing.Size(92, 17);
-            this.docs2.TabIndex = 2;
-            this.docs2.TabStop = true;
-            this.docs2.Text = "Display as link";
-            this.docs2.UseVisualStyleBackColor = true;
-            // 
-            // downpane
-            // 
-            this.downpane.Controls.Add(this.downico);
-            this.downpane.Controls.Add(this.down0);
-            this.downpane.Controls.Add(this.downtxt);
-            this.downpane.Controls.Add(this.down1);
-            this.downpane.Controls.Add(this.down2);
-            this.downpane.Location = new System.Drawing.Point(6, 262);
-            this.downpane.Name = "downpane";
-            this.downpane.Size = new System.Drawing.Size(200, 94);
-            this.downpane.TabIndex = 13;
-            // 
-            // downico
-            // 
-            this.downico.BackColor = System.Drawing.Color.Transparent;
-            this.downico.BackgroundImage = global::taskman.Properties.Resources.down;
-            this.downico.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.downico.ImageLocation = "";
-            this.downico.Location = new System.Drawing.Point(3, 3);
-            this.downico.Name = "downico";
-            this.downico.Size = new System.Drawing.Size(19, 21);
-            this.downico.TabIndex = 0;
-            this.downico.TabStop = false;
-            // 
-            // down0
-            // 
-            this.down0.AutoSize = true;
-            this.down0.Location = new System.Drawing.Point(3, 76);
-            this.down0.Name = "down0";
-            this.down0.Size = new System.Drawing.Size(126, 17);
-            this.down0.TabIndex = 4;
-            this.down0.Text = "Don\'t display this item";
-            this.down0.UseVisualStyleBackColor = true;
-            // 
-            // downtxt
-            // 
-            this.downtxt.AutoSize = true;
-            this.downtxt.Location = new System.Drawing.Point(28, 9);
-            this.downtxt.Name = "downtxt";
-            this.downtxt.Size = new System.Drawing.Size(60, 13);
-            this.downtxt.TabIndex = 1;
-            this.downtxt.Text = "Downloads";
-            // 
-            // down1
-            // 
-            this.down1.AutoSize = true;
-            this.down1.Location = new System.Drawing.Point(3, 53);
-            this.down1.Name = "down1";
-            this.down1.Size = new System.Drawing.Size(102, 17);
-            this.down1.TabIndex = 3;
-            this.down1.Text = "Display as menu";
-            this.down1.UseVisualStyleBackColor = true;
-            // 
-            // down2
-            // 
-            this.down2.AutoSize = true;
-            this.down2.Checked = true;
-            this.down2.Location = new System.Drawing.Point(3, 30);
-            this.down2.Name = "down2";
-            this.down2.Size = new System.Drawing.Size(92, 17);
-            this.down2.TabIndex = 2;
-            this.down2.TabStop = true;
-            this.down2.Text = "Display as link";
-            this.down2.UseVisualStyleBackColor = true;
-            // 
-            // devin
-            // 
-            this.devin.AutoSize = true;
-            this.devin.Location = new System.Drawing.Point(6, 242);
-            this.devin.Name = "devin";
-            this.devin.Size = new System.Drawing.Size(124, 17);
-            this.devin.TabIndex = 16;
-            this.devin.Text = "Devices and Printers";
-            this.devin.UseVisualStyleBackColor = true;
-            // 
-            // defprogin
-            // 
-            this.defprogin.AutoSize = true;
-            this.defprogin.Location = new System.Drawing.Point(6, 221);
-            this.defprogin.Name = "defprogin";
-            this.defprogin.Size = new System.Drawing.Size(107, 17);
-            this.defprogin.TabIndex = 14;
-            this.defprogin.Text = "Default Programs";
-            this.defprogin.UseVisualStyleBackColor = true;
+            this.resetbutt.Click += new System.EventHandler(this.resetbutt_Click);
             // 
             // startmenu
             // 
@@ -755,25 +799,25 @@
             this.comppane.ResumeLayout(false);
             this.comppane.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.compico)).EndInit();
+            this.vidpane.ResumeLayout(false);
+            this.vidpane.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.vidico)).EndInit();
+            this.downpane.ResumeLayout(false);
+            this.downpane.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.netico)).EndInit();
+            this.picpane.ResumeLayout(false);
+            this.picpane.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picio)).EndInit();
+            this.docpane.ResumeLayout(false);
+            this.docpane.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.docsico)).EndInit();
+            this.musicpane.ResumeLayout(false);
+            this.musicpane.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.musico)).EndInit();
             this.sizepane.ResumeLayout(false);
             this.sizepane.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.itemnumin)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.appnumin)).EndInit();
-            this.vidpane.ResumeLayout(false);
-            this.vidpane.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.vidico)).EndInit();
-            this.picpane.ResumeLayout(false);
-            this.picpane.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picio)).EndInit();
-            this.musicpane.ResumeLayout(false);
-            this.musicpane.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.musico)).EndInit();
-            this.docpane.ResumeLayout(false);
-            this.docpane.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.docsico)).EndInit();
-            this.downpane.ResumeLayout(false);
-            this.downpane.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.downico)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -808,22 +852,22 @@
         private System.Windows.Forms.CheckBox runin;
         private System.Windows.Forms.Panel vidpane;
         private System.Windows.Forms.PictureBox vidico;
-        private System.Windows.Forms.RadioButton vid0;
+        private System.Windows.Forms.RadioButton vids0;
         private System.Windows.Forms.Label vidtxt;
-        private System.Windows.Forms.RadioButton vid1;
-        private System.Windows.Forms.RadioButton vid2;
+        private System.Windows.Forms.RadioButton vids1;
+        private System.Windows.Forms.RadioButton vids2;
         private System.Windows.Forms.Panel picpane;
         private System.Windows.Forms.PictureBox picio;
-        private System.Windows.Forms.RadioButton pic0;
+        private System.Windows.Forms.RadioButton pics0;
         private System.Windows.Forms.Label pictxt;
-        private System.Windows.Forms.RadioButton pic1;
-        private System.Windows.Forms.RadioButton pic2;
+        private System.Windows.Forms.RadioButton pics1;
+        private System.Windows.Forms.RadioButton pics2;
         private System.Windows.Forms.Panel musicpane;
         private System.Windows.Forms.PictureBox musico;
-        private System.Windows.Forms.RadioButton mus0;
+        private System.Windows.Forms.RadioButton music0;
         private System.Windows.Forms.Label mustxt;
-        private System.Windows.Forms.RadioButton mus1;
-        private System.Windows.Forms.RadioButton mus2;
+        private System.Windows.Forms.RadioButton music1;
+        private System.Windows.Forms.RadioButton music2;
         private System.Windows.Forms.Panel docpane;
         private System.Windows.Forms.PictureBox docsico;
         private System.Windows.Forms.RadioButton docs0;
@@ -831,12 +875,13 @@
         private System.Windows.Forms.RadioButton docs1;
         private System.Windows.Forms.RadioButton docs2;
         private System.Windows.Forms.Panel downpane;
-        private System.Windows.Forms.PictureBox downico;
-        private System.Windows.Forms.RadioButton down0;
-        private System.Windows.Forms.Label downtxt;
-        private System.Windows.Forms.RadioButton down1;
-        private System.Windows.Forms.RadioButton down2;
+        private System.Windows.Forms.PictureBox netico;
+        private System.Windows.Forms.RadioButton net0;
+        private System.Windows.Forms.Label netxt;
+        private System.Windows.Forms.RadioButton net1;
+        private System.Windows.Forms.RadioButton net2;
         private System.Windows.Forms.CheckBox defprogin;
         private System.Windows.Forms.CheckBox devin;
+        private System.Windows.Forms.CheckBox recentdocsin;
     }
 }

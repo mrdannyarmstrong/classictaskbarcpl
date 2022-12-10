@@ -381,6 +381,7 @@
             this.howtochange.TabStop = true;
             this.howtochange.Text = "How do I change the way the Start Menu looks?";
             this.howtochange.VisitedLinkColor = System.Drawing.SystemColors.HotTrack;
+            this.howtochange.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.howtochange_LinkClicked);
             // 
             // privacy
             // 
@@ -410,6 +411,7 @@
             this.storerecentitemsin.TabIndex = 1;
             this.storerecentitemsin.Text = "Store and display recently opened programs in the Start menu \r\nand the taskbar";
             this.storerecentitemsin.UseVisualStyleBackColor = true;
+            this.storerecentitemsin.CheckedChanged += new System.EventHandler(this.storerecentitemsin_CheckedChanged);
             // 
             // storerecentappsin
             // 
@@ -420,20 +422,23 @@
             this.storerecentappsin.TabIndex = 0;
             this.storerecentappsin.Text = "Store and display recently opened programs in the Start menu";
             this.storerecentappsin.UseVisualStyleBackColor = true;
+            this.storerecentappsin.CheckedChanged += new System.EventHandler(this.storerecentappsin_CheckedChanged);
             // 
             // poweractin
             // 
             this.poweractin.FormattingEnabled = true;
             this.poweractin.Items.AddRange(new object[] {
             "Shutdown",
-            "Restart",
             "Sleep",
-            "Hibernate"});
+            "Hibernate",
+            "Turn off display",
+            "Do nothing"});
             this.poweractin.Location = new System.Drawing.Point(122, 51);
             this.poweractin.Name = "poweractin";
             this.poweractin.Size = new System.Drawing.Size(141, 21);
             this.poweractin.TabIndex = 3;
             this.poweractin.Text = "Shut Down";
+            this.poweractin.SelectedIndexChanged += new System.EventHandler(this.poweractin_SelectedIndexChanged);
             // 
             // poweracttxt
             // 

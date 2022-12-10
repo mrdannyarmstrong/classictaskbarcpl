@@ -90,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="main.ico" />
+    <None Include="Resources\net.ico" />
     <None Include="Resources\vid.ico" />
     <None Include="Resources\pics.ico" />
     <None Include="Resources\music.ico" />
